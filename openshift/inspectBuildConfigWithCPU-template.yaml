@@ -14,7 +14,7 @@ metadata:
   labels:
     template: amun-inspect-buildconfig-with-cpu
     app: amun
-    component: inspect-buildconfig
+    component: amun-inspect-buildconfig
 
 objects:
   - kind: BuildConfig
@@ -23,7 +23,7 @@ objects:
       name: "${AMUN_INSPECTION_ID}"
       labels:
         app: amun
-        component: inspect-buildconfig
+        component: amun-inspect-buildconfig
         mark: cleanup
       annotations:
         amun_specification: ${AMUN_SPECIFICATION}

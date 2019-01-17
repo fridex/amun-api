@@ -16,7 +16,7 @@ metadata:
     template.openshift.io/provider-display-name: Red Hat, Inc.
   labels:
     app: amun
-    component: inspect-imagestream
+    component: amun-inspect-imagestream
     template: amun-inspect-imagestream
 
 objects:
@@ -25,7 +25,7 @@ objects:
     metadata:
       labels:
         app: amun
-        component: inspect-imagestream
+        component: amun-inspect-imagestream
         mark: cleanup
       name: ${AMUN_INSPECTION_ID}
     spec:
